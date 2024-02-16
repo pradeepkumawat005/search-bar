@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: gray;
+}
+
+.search_Box{
+    width: 600px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+input{
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+
+}
+
+.result_Box ul{
+    border-top: 1px solid #999;
+}
+.result_Box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+
+
+
